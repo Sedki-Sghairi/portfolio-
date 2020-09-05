@@ -147,6 +147,7 @@ nav {
 	width: 100%;
 	background: #fff;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	z-index: 100;
 }
 .fixed-nav .links a {
 	color: hsl(209, 61%, 16%);
@@ -238,7 +239,7 @@ nav {
 /* hero */
 header {
 	min-height: 100vh;
-	background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(./hero.JPG) center/cover no-repeat;
+	background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(./hero.JPG) right/cover no-repeat;
 }
 .banner {
 	min-height: 100vh;
@@ -255,6 +256,9 @@ header {
 	margin-bottom: 1.25rem;
 }
 @media screen and (min-width: 768px) {
+	header {
+		background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(./hero.JPG) center/cover no-repeat;
+	}
 	.container p {
 		max-width: 40rem;
 	}
@@ -325,6 +329,7 @@ span {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	transition: all 1s linear;
 }
 .webdev h1 {
 	font-size: 1.7rem;
@@ -388,11 +393,11 @@ footer p {
 	animation: bounce 2s ease-in-out infinite;
 
 	visibility: hidden;
-	z-index: -100;
+	z-index: -2;
 }
 .show-link {
 	visibility: visible;
-	z-index: 100;
+	z-index: 2;
 }
 
 @keyframes bounce {
