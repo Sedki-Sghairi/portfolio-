@@ -132,7 +132,7 @@ const reviews = [
 		name: 'darina bohacova',
 		job: 'business owner',
 		img: 'images/darina.jpg',
-		text: 'If I need a wep related work, I just call Sedki. He always exceeds my expectation!'
+		text: 'If I need a web related work, I just call Sedki. He always exceeds my expectation!'
 	},
 	{
 		id: 4,
@@ -152,13 +152,13 @@ const nextBtn = document.querySelector('.next-btn');
 
 let currentItem = 0;
 
-// window.addEventListener('DOMContentLoaded', function() {
-// 	const item = reviews[currentItem];
-// 	// img.src = item.img;
-// 	author.textContent = item.name;
-// 	job.textContent = item.job;
-// 	info.textContent = item.text;
-// });
+window.addEventListener('DOMContentLoaded', function() {
+	const item = reviews[currentItem];
+	img.src = item.img;
+	author.textContent = item.name;
+	job.textContent = item.job;
+	info.textContent = item.text;
+});
 
 function showPerson(person) {
 	const item = reviews[person];
