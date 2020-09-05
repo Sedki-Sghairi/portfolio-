@@ -116,7 +116,7 @@ const reviews = [
 		id: 1,
 		name: 'wajdi zorgui',
 		job: 'plc developer',
-		img: 'images/wajdi.PNG',
+		img: 'images/wajdi.png',
 		text:
 			'Working with Sedki is both fun and inspiring, he loves programming and he understands computers at a fundamental level, and that makes him in my opinion one of the best web developers out there.'
 	},
@@ -138,7 +138,7 @@ const reviews = [
 		id: 4,
 		name: 'soufien ghali',
 		job: 'ux designer',
-		img: 'images/soufien.JPG',
+		img: 'images/soufien.jpg',
 		text: 'Great designs, great talent, clean code! I highly recommend.'
 	}
 ];
