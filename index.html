@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sedki Sghairi</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600&family=Pompiere&display=swap"
+     rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./logo.png" alt="logo" class = "logo">
+            <button class="nav-toggle">
+              <i class = "fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+              <li>
+               <a href="#reviews" class="scroll-link">reviews</a>
+              </li>
+              <li>
+                <a href="#work" class="scroll-link">work</a>
+              </li>
+            </ul>            
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1><span id="fade">sedki sghairi</span></h1>
+          <div class="webdev" id="titleBox">
+            <h1 class="animbg">full stack</h1>
+            <p class="subtitle">web development</p>
+        </div>
+          <a href="#work" class = "scroll-link btn btn-white">
+             explore projects
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- services -->
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>contact<span class="pop">me</span></h2>
+      </div>
+    </section>
+    <!-- tours -->
+    <section id="work" class="section">
+      <div class="title">
+        <h2>some of<span class="pop">my projects</span></h2>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about<span class="pop">me</span></h2>
+      </div>
+    </section>
+    <section id="reviews" class="section">
+      <div class="title">
+        <h2>my<span class="pop">reviews</span></h2>
+      </div>
+      <article class="review-contaier">
+        <div class="img-container">
+          <img src="images/wajdi.png" id="person-img" alt="" />
+        </div>
+        <h4 id="author">wajdi zorgui</h4>
+        <p id="job">plc developer</p>
+        <p id="info">
+          Working with Sedki is both fun and inspiring, he loves programming and he understands computers at a fundamental level, and that makes him in my opinion one of the best web developers out there.
+        </p>
+        <div class="button-container">
+          <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </article>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        No copyright/ FreeWebForAll : <small id="date"></small> .all rigts not reserved
+      </p>
+    </footer>
+    <!-- back to buttons -->
+    <a href="#home" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="app.js"></script>
+  </body>
+</html>
