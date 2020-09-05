@@ -116,7 +116,7 @@ const reviews = [
 		id: 1,
 		name: 'wajdi zorgui',
 		job: 'plc developer',
-		img: 'images/wajdi.png',
+		img: './images/wajdi.png',
 		text:
 			'Working with Sedki is both fun and inspiring, he loves programming and he understands computers at a fundamental level, and that makes him in my opinion one of the best web developers out there.'
 	},
@@ -152,13 +152,13 @@ const nextBtn = document.querySelector('.next-btn');
 
 let currentItem = 0;
 
-window.addEventListener('DOMContentLoaded', function() {
-	const item = reviews[currentItem];
-	img.src = item.img;
-	author.textContent = item.name;
-	job.textContent = item.job;
-	info.textContent = item.text;
-});
+// window.addEventListener('DOMContentLoaded', function() {
+// 	const item = reviews[currentItem];
+// 	// img.src = item.img;
+// 	author.textContent = item.name;
+// 	job.textContent = item.job;
+// 	info.textContent = item.text;
+// });
 
 function showPerson(person) {
 	const item = reviews[person];
