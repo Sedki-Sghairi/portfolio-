@@ -116,7 +116,7 @@ const reviews = [
 		id: 1,
 		name: 'wajdi zorgui',
 		job: 'plc developer',
-		img: './wajdi.PNG',
+		img: 'images/wajdi.PNG',
 		text:
 			'Working with Sedki is both fun and inspiring, he loves programming and he understands computers at a fundamental level, and that makes him in my opinion one of the best web developers out there.'
 	},
@@ -124,7 +124,7 @@ const reviews = [
 		id: 2,
 		name: 'foued kamel',
 		job: 'avionav ceo',
-		img: './foued.jfif',
+		img: 'images/foued.jfif',
 		text: 'Sedki is smart and driven, and I highly recommend working with him'
 	},
 	{
