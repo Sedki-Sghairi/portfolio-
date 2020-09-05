@@ -116,7 +116,7 @@ const reviews = [
 		id: 1,
 		name: 'wajdi zorgui',
 		job: 'plc developer',
-		img: './images/wajdi.PNG',
+		img: './wajdi.PNG',
 		text:
 			'Working with Sedki is both fun and inspiring, he loves programming and he understands computers at a fundamental level, and that makes him in my opinion one of the best web developers out there.'
 	},
@@ -124,21 +124,21 @@ const reviews = [
 		id: 2,
 		name: 'foued kamel',
 		job: 'avionav ceo',
-		img: './images/foued.JFIF',
+		img: './foued.jfif',
 		text: 'Sedki is smart and driven, and I highly recommend working with him'
 	},
 	{
 		id: 3,
 		name: 'darina bohacova',
 		job: 'business owner',
-		img: './images/darina.JPG',
+		img: 'images/darina.jpg',
 		text: 'If I need a wep related work, I just call Sedki. He always exceeds my expectation!'
 	},
 	{
 		id: 4,
 		name: 'soufien ghali',
 		job: 'ux designer',
-		img: './images/soufien.JPG',
+		img: 'images/soufien.JPG',
 		text: 'Great designs, great talent, clean code! I highly recommend.'
 	}
 ];
